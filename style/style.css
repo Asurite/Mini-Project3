@@ -24,6 +24,7 @@ header {
     background-size: cover;
     padding: 36px 59px;
 }
+
 nav {
     display: flex;
     align-items: center;
@@ -348,4 +349,16 @@ footer .socials img:hover {
     .copyright {
         margin-right: 30px;
     }
+}
+
+@media (max-width: 1440px) {
+
+    nav {
+        margin-bottom: 100px;
+      }
+    
+  .service-opt {
+     margin-left: 10px;
+     margin-right: 30px;
+  }
 }
